@@ -45,11 +45,8 @@ while option != 4:
   print("type 4 to exit")
   option = int(input(""))
   if option == 1:
-    ads = printname()
-    print(ads)
+    printname()
   elif option == 2:
-    ads = addressname()
-    print(ads)
+    addressname()
   elif option == 3:
-    ads = namecheck()
-    print(ads)
+    namecheck()
